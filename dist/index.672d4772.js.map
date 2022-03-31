@@ -1,0 +1,1 @@
+{"mappings":"AAAA,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,AAApB;AAEA,IAAI,QAAQ,GACZ,QAAQ,CAAC,aAAa,CAAC,WAAW,CAAC","sources":["script.js"],"sourcesContent":["console.log('HELLO')\n\nvar gameList = \ndocument.querySelector('.gameList')\n"],"names":[],"version":3,"file":"index.672d4772.js.map","sourceRoot":"/__parcel_source_root/"}

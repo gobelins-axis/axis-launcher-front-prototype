@@ -1,0 +1,79 @@
+html {
+  background: #232526;
+  background: -webkit-linear-gradient(to top, #414345, #232526);
+  height: 100%;
+  background: linear-gradient(to top, #414345, #232526);
+}
+
+.app {
+  max-width: 1000px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Work Sans, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.game-list {
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-card {
+  width: calc(50% - 20px);
+  height: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding: 1em;
+  transition: scale .25s;
+}
+
+.game-card:not(.disabled):not(.disabled-second-row):hover {
+  scale: 1.025;
+}
+
+.spacevoyage {
+  background-image: url("thumb_spacevoyage.52c5ed1f.jpeg");
+  background-position: 100%;
+  background-size: cover;
+}
+
+.jahneration {
+  background-color: #fc4847;
+  background-image: url("thumb_jahneration.c310949f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.game-card.disabled {
+  opacity: .5;
+  background-color: #000;
+}
+
+.game-card.disabled-second-row {
+  opacity: .25;
+  background-color: #000;
+}
+
+.game-card.disabled .game-title {
+  color: #fff;
+}
+
+.game-title {
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */

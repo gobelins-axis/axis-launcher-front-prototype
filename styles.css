@@ -1,0 +1,78 @@
+html {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+}
+
+.app {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.game-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+}
+
+.game-card {
+    width: calc(100% / 2 - 20px);
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    padding: 1em;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: scale 0.25s;
+    -webkit-app-region: no-drag;
+}
+
+.game-card:not(.disabled):not(.disabled-second-row):hover {
+    scale: 1.025;
+}
+
+.spacevoyage {
+    background-image: url("./images/thumb_spacevoyage.jpeg");
+    background-size: cover;
+    background-position: right center;
+    -webkit-app-region: no-drag;
+}
+.jahneration {
+    background-image: url("./images/thumb_jahneration.jpg");
+    background-size: contain;
+    background-position: center;
+    background-color: #fc4847;
+    background-repeat: no-repeat;
+}
+
+.game-card.disabled {
+    background-color: black;
+    opacity: 0.50;
+}
+
+.game-card.disabled-second-row {
+    background-color: black;
+    opacity: 0.25;
+}
+
+.game-card.disabled .game-title {
+    color: white;
+}
+
+.game-title {
+    font-size: 1.2rem;
+    text-align: right;
+}
