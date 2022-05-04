@@ -26,7 +26,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    -webkit-app-region: no-drag;
+
 }
 
 .game-card {
@@ -43,6 +43,11 @@ h1 {
 .game-card:not(.disabled):not(.disabled-second-row):hover {
     scale: 1.025;
 }
+
+.game-card:not(.disabled):not(.disabled-second-row){
+    -webkit-app-region: no-drag;
+}
+
 .game-image {
     height: 100%;
     width: 100%;
