@@ -37,7 +37,6 @@ h1 {
     box-sizing: border-box;
     cursor: pointer;
     transition: scale 0.25s;
-    -webkit-app-region: no-drag;
 }
 
 .game-card:not(.disabled):not(.disabled-second-row):hover {
