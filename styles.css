@@ -1,6 +1,6 @@
 html {
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
 }
@@ -43,14 +43,22 @@ h1 {
 .game-card:not(.disabled):not(.disabled-second-row):hover {
     scale: 1.025;
 }
+.game-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+}
 
-.spacevoyage {
+#spacevoyage {
     background-image: url("./images/thumb_spacevoyage.jpeg");
     background-size: cover;
     background-position: right center;
     -webkit-app-region: no-drag;
 }
-.jahneration {
+
+#jahneration {
     background-image: url("./images/thumb_jahneration.jpg");
     background-size: contain;
     background-position: center;
@@ -61,6 +69,27 @@ h1 {
 .game-card.disabled {
     background-color: black;
     opacity: 0.50;
+}
+
+.game-card {
+    padding: 10px;
+}
+
+.active{
+    border: 2px solid green;
+}
+
+#loadingOverlay {
+    position: absolute;
+    background-color: rgba(60, 55, 55, 0.76);
+    inset: 0;
+    opacity: 0.75;
+    z-index: 9999;
+    display: block;
+}
+
+#loadingOverlay.hidden {
+    display: none;
 }
 
 .game-card.disabled-second-row {

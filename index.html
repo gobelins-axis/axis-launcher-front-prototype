@@ -9,32 +9,45 @@
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+<div id="loadingOverlay" class="hidden">Loading</div>
 <div class="app">
 	<h1>Welcome to Arcade Launcher</h1>
 	<div class="game-list">
-		<div class="game-card spacevoyage">
-			<div class="game-title">Space Voyage</div>
-			<div class="play-btn"></div>
+		<div tabindex="0" class="game-card spacevoyage active">
+			<div id="spacevoyage" class="game-image">
+				<div class="game-title">Space Voyage</div>
+				<div class="play-btn"></div>
+			</div>
 		</div>
-		<div class="game-card jahneration">
-			<div class="game-title">Jahneration</div>
-			<div class="play-btn"></div>
+		<div tabindex="1" class="game-card jahneration">
+			<div id="jahneration" class="game-image">
+				<div class="game-title">Jahneration</div>
+				<div class="play-btn"></div>
+			</div>
 		</div>
 		<div class="game-card disabled">
-			<div class="game-title">Coming soon</div>
-			<div class="playBtn"></div>
+			<div class="game-image disabled">
+				<div class="game-title">Coming soon</div>
+				<div class="playBtn"></div>
+			</div>
 		</div>
 		<div class="game-card disabled">
-			<div class="game-title">Coming soon</div>
-			<div class="playBtn"></div>
+			<div class="game-image disabled">
+				<div class="game-title">Coming soon</div>
+				<div class="playBtn"></div>
+			</div>
 		</div>
-		<div class="game-card disabled-second-row">
-			<div class="game-title">Coming soon</div>
-			<div class="playBtn"></div>
+		<div class="game-card disabled">
+			<div class="game-image disabled-second-row">
+				<div class="game-title">Coming soon</div>
+				<div class="playBtn"></div>
+			</div>
 		</div>
-		<div class="game-card disabled-second-row">
-			<div class="game-title">Coming soon</div>
-			<div class="playBtn"></div>
+		<div class="game-card disabled">
+			<div class="game-image disabled-second-row">
+				<div class="game-title">Coming soon</div>
+				<div class="playBtn"></div>
+			</div>
 		</div>
 	</div>
 </div>
