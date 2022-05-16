@@ -1,21 +1,13 @@
 {
-  "name": "arcade-launcher-client",
+  "name": "axis-launcher-front-prototype",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arcade-feu/arcade-launcher-client.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arcade-feu/arcade-launcher-client/issues"
-  },
-  "homepage": "https://github.com/arcade-feu/arcade-launcher-client#readme",
   "devDependencies": {
     "parcel": "^2.4.0"
   },

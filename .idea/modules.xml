@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/arcade-launcher-client.iml" filepath="$PROJECT_DIR$/.idea/arcade-launcher-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/axis-launcher-front-prototype.iml" filepath="$PROJECT_DIR$/.idea/axis-launcher-front-prototype.iml" />
     </modules>
   </component>
 </project>
